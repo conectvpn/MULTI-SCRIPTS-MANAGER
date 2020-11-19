@@ -3,7 +3,7 @@
 
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/MULTI-SCRIPTS-MANAGER/blob/main/Imagenes/Multi-Scripts-Manager.png)
 
-**Multi-Scripts-Manager**
+**Manager Script**
 
 ## :heavy_exclamation_mark: Requerimientos
 
