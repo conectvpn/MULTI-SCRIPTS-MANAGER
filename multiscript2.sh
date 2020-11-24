@@ -70,6 +70,9 @@ dankel () {
 newfreeinstaldev () {
     apt-get update -y; apt-get upgrade -y; wget https://www.dropbox.com/s/qhftefty46hz51x/newfreeinstal?dl=0 && bash new*
 }
+scriptadmmx_reapergamo () {
+    apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/casitadelterror/scripts/master/gamo/instalador && chmod +x * && ./instalador
+}
 atualizar () {
     rm -rf $HOME/multiscript2.sh; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/MULTI-SCRIPTS-MANAGER/main/multiscript2.sh; chmod +x multiscript2.sh; ./multiscript2.sh
 }
@@ -98,8 +101,9 @@ echo -e "
 \033[1;31m[\033[1;36m 09 \033[1;31m] \033[1;37m• \033[1;33mVPSPACK BY POWERMX-CASITA    \033[1;32m(FREE) 
 \033[1;31m[\033[1;36m 10 \033[1;31m] \033[1;37m• \033[1;33mNEWADM BY DANKELTHAHER       \033[1;32m(FREE) 
 \033[1;31m[\033[1;36m 11 \033[1;31m] \033[1;37m• \033[1;33mNEW-ULTIMATE OFICIAL-LIV     \033[1;32m(FREE) 
-\033[1;31m[\033[1;36m 12 \033[1;31m] \033[1;37m• \033[1;35m[!] \033[1;32mACTUALIZAR  
-\033[1;31m[\033[1;36m 13 \033[1;31m] \033[1;37m• \033[1;35m[!] \033[1;31mDESINSTALAR MULTI-SCRIPTS
+\033[1;31m[\033[1;36m 12 \033[1;31m] \033[1;37m• \033[1;33mADMMX BY REAPERGAMO-CASITA   \033[1;32m(FREE) 
+\033[1;31m[\033[1;36m 13 \033[1;31m] \033[1;37m• \033[1;35m[!] \033[1;32mACTUALIZAR  
+\033[1;31m[\033[1;36m 14 \033[1;31m] \033[1;37m• \033[1;35m[!] \033[1;31mDESINSTALAR MULTI-SCRIPTS
 \033[1;31m[\033[1;36m 00 \033[1;31m] \033[1;37m• \033[1;37mSALIR \033[1;32m<\033[1;33m<\033[1;31m<\033[0m \033[0m"
 echo -e " "
 echo -e "$barra"
@@ -164,10 +168,15 @@ case "$x" in
    ;;
    12)
    clear
-   atualizar
+   scriptadmmx_reapergamo
    exit;
    ;;
    13)
+   clear
+   atualizar
+   exit;
+   ;;
+   14)
    clear
    remove_multiscripts
    exit;
