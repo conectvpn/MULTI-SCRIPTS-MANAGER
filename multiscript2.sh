@@ -84,15 +84,15 @@ while true $x != "ok"
 do
 clear
 echo -e "$barra"
-echo -e "\E[41;1;37mMULTI-SCRIPTS MANAGER             \033[1;32m[\033[1;37m VERSAO: r029 \033[1;32m]\E[0m"
+echo -e "\E[41;1;37mMULTI-SCRIPTS MANAGER             \033[1;32m[\033[1;37m VERSAO: r045 \033[1;32m]\E[0m"
 echo -e "$barra"
 echo -ne "\033[1;33m[\033[1;31m ! \033[1;33m] \033[1;31mapt-get update "; fun_prog 'fun_update'
-echo -ne "\033[1;33m[\033[1;31m ! \033[1;33m] \033[1;31mapt-get upgrade "; fun_prog 'fun_upgrade'
+#echo -ne "\033[1;33m[\033[1;31m ! \033[1;33m] \033[1;31mapt-get upgrade "; fun_prog 'fun_upgrade'
 echo -e "$barra"
 echo -e "
 \033[1;31m[\033[1;36m 01 \033[1;31m] \033[1;37m• \033[1;33mSSHPLUS MANAGER v31          \033[1;32m(FREE) 
 \033[1;31m[\033[1;36m 02 \033[1;31m] \033[1;37m• \033[1;33mSSHPLUS MANAGER v31          \033[1;31m(KEYS) 
-\033[1;31m[\033[1;36m 03 \033[1;31m] \033[1;37m• \033[1;33mADM-MANAGER-ALPHA            \033[1;32m(FREE) 
+\033[1;31m[\033[1;36m 03 \033[1;31m] \033[1;37m• \033[1;33mADM-MANAGER-ULTIMATE-ALPHA   \033[1;32m(FREE) 
 \033[1;31m[\033[1;36m 04 \033[1;31m] \033[1;37m• \033[1;33mNEW-ULTIMATE r6.3.4          \033[1;32m(FREE) 
 \033[1;31m[\033[1;36m 05 \033[1;31m] \033[1;37m• \033[1;33mNEW ADM-VPS                  \033[1;31m(KEYS) 
 \033[1;31m[\033[1;36m 06 \033[1;31m] \033[1;37m• \033[1;33mVPSMX BY KALIX1-CASITA       \033[1;32m(FREE) 
